@@ -1,0 +1,51 @@
+Conceitos de S.O.L.I.D.
+
+São 5 princípios de design de classes orientado a objetos.
+
+Esses cinco princípios nos ajudam a entender a necessidade de determinados padrões de projetos e arquitetura de software em geral.
+
+Os princípios do S.O.L.I.D. foram apresentados pela primeira vez pelo cientista da computação Robert J. Martin.
+
+S.ingle Responsability
+O.pen-Closed
+L.iskov Substitution
+I.nterface Segregation
+D.ependency Inversion (Inversão de Dependência)
+
+
+
+*** Single Responsability Principle (SRP) ***
+
+O princípio da Responsabilidade Única nos diz que um módulo deve ser especializado em um único assunto e possuir apenas uma única responsabilidade dentro do software.
+
+"Um módulo deve ter um, e apenas um, motivo para alteração."
+
+
+*** Open-Closed (OCP) ***
+
+O princípio do Aberto-Fechado nos diz que "um artefato de software deve estar aberto para extensões, mas fechado para modificações".
+
+"Em outras palavras, o comportamento de um artefato de software deve ser extensível, mas sem ter que modificá-lo."
+
+
+*** Liskov Substitution (LSP) ***
+
+O princípio da substituição de Liskov nos diz que os objetos podem ser substituídos por seus subtipos sem que isso afete a execução correta do programa.
+Obs.: Quando trabalhamos com Herança temos as classes mais genéricas (Ex. Animal) e menos genéricas (Ex. Leopardo), então não precisamos reescrever métodos que já temos pela herança.
+
+"O LSP pode e deve ser estendido ao nível da arquitetura. Uma simples violação de substituição, pode fazer com que a arquitetura de um sistema seja poluída com uma quantidade significativa de mecanismos extras."
+
+
+*** Interface Segregation (ISP) ***
+
+O princípio da segregação de interfaces nos diz que uma classe não deve ser forçada a implementar interfaces que ela não utiliza.
+
+"Em vez disso, as interfaces devem ser segregadas em conjuntos menores e mais específicas de métodos"
+
+
+*** Dependency Inversion (DIP) ***
+
+O princípio da inversão de dependência nos diz que módulos de alto nível não devem depender diretamente dos módulos de baixo nível.
+
+"[...] os sistemas mais flexíveis são aqueles em que as dependências do código-fonte referem-se apenas a abstrações, não a concreções."
+-> Logo, relação a partir das interfaces
