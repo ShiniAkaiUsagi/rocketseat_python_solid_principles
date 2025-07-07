@@ -1,7 +1,7 @@
-# RocketSeat - Desafio 05
+# RocketSeat
 
-Projeto criado como forma de fixar e avaliar os conhecimentos obtidos no módulo: "Introdução ao Design de Código", quanto aos "Princípios S.O.L.I.D.".
-[Desafio proposto](Desafio.txt).
+Projeto criado como forma de fixar e avaliar os conhecimentos obtidos no módulo 4: "Introdução ao Design de Código", quanto aos "Princípios S.O.L.I.D.".
+[Desafio](Desafio.txt).
 
 ### Funcionalidades
 
